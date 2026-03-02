@@ -47,7 +47,91 @@
             Berbeda dengan type radio di atas yang bisa milih satu jika name nya sama.<br>
         </p>
 
+        <hr>
+        <h3>Uji cob 4</h3>
+        <label for="favcolor">Pilih warna dengan type="color":</label>
+        <input type="color" id="favcolor" name="favcolor"><br>
 
+        <label for="b">Pilih tanggal dengan type="date":</label>
+        <input type="date" id="b" name="tanggal"><br>
+        <input type="button" onclick="alert('Hello World')" value="Click Me!"><br>
+        <p>
+            Input type color bisa menampilkan pilihan warna.<br>
+            Input type date bisa menampilkan kalender.<br>
+            Tombol button bisa menjalankan perintah JavaScript untuk menampilkan pesan saat di klik.<br>
+        </p>
 
+        <hr>
+        <h3>Uji coba 5</h3>
+        <label for="birthdaytime">input dengan type datetime-local:</label>
+        <input type="datetime-local" id="birthdaytime" name="birthdaytime"><br>
+
+        <label for="bdaymonth">input dengan type month:</label>
+        <input type="month" id="bdaymonth" name="bdaymonth"><br>
+
+        <label for="email">Enter your email:</label>
+        <input type="email" id="email" name="email"><br>
+        <p>
+            Input dengan type datetime-local bisa menampilkan pilihan tanggal dan waktu.<br>
+            Type month menampilkan pilihan bulan dan tahun, type email untuk memasukkan alamat email dengan validasi otomatis.<br>
+            Di beberapa browser tampilan input data nya berbeda.<br>
+        </p>
+
+        <hr>
+        <h3>Uji coba 6</h3> 
+        <input type="image" src="gambar/icon.png" alt="Submit" width="48" height="48"><br>
+        <label for="myfile">Pilih file:</label>
+
+        <input type="file" id="myfile" name="myifile"><br>
+        <input type="hidden" id="custId" name="custId" value="3487"><br>
+        <p>
+            Input dengan type image digunakan untuk tombol submit dalam bentuk gambar yang bisa di klik.<br>
+            Input dengan type file digunakan untuk memilih dan mengunggan file dari komputer pengguna.<br>
+            Input dengan typpe hidden digunakan untuk menyimpan data tertentu yang tidak ditampilkan dalam web tetapi tetap dikirim ke server saat from diproses.<br>
+        </p>
+
+        <hr>
+        <h3>Uji coba 7</h3>
+        <label for="quantity">Quantity (between 1 and 5):</label>
+        <input type="number" id="quantity" name="quantity" min="1" max="10"><br>
+
+        <label for="vol">Volume (beetwen 0 and 50):</label>
+        <input type="range" id="vol" name="vol" min="0" max="50"><br>
+        <p>
+            input dengan type number hanya dapat diisi dengan angka berdasarkan nilai min dan max.<br>
+            Saat nimali min diubah menjadi -50, maka input bisa menerima nilai negatif.<br>
+            input dengan type range bisa menampilkan slider dan rentang tertentu dari nilai min - max.<br>
+        </p>
+
+        <hr>
+        <h3>Uji coba 8</h3>
+        <label for="homepage">Add your homepage:</label>
+        <input type="url" id="homepage" name="homepage"><br>
+
+        <label for="gsearch">Search Google:</label>
+        <input type="search" id="gsearch" name="gsearch"><br>
+
+        <label for="ph">Enter youre phone number:</label>
+        <input type="tel" id="ph" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"><br>
+        <p>
+            input dengan type URL digunakan untuk memasukan alamat website dan akan melakukanvalidasi format URL secara otomatis.<br>
+            Input dengan tipe search digunkan untuk melakukan pencarian dan tampilannya menyerupai kotak pencarian.<br>
+            Input dengan type tel digunakan untuk memasukan nomor telepon sesuai pola (pattern) yang telah ditentukan.<br>
+            tanpilan inout pada browser dapat berubah, tetapi fungsinya tetap sama.<br>
+        </p>
+
+        <hr>
+        <h3>Uji coba 9</h3>
+        <label for="appt">Select a time:</label>
+        <input type="time" id="appt" name="appt"><br>
+
+        <label for="week">Select a week:</label>
+        <input type="week" id="week" name="week"><br>
+        <p>
+            Input dengan type time digunakan untuk memilih jam dan waktu melalui time picker.<br>
+            Input dengan type week digunakan untuk memilih minggu tertentu dalam satu tahun.<br>
+            Pada beberapa browser tampilan pemilih waktu dan minggu bisa berbeda.<br>
+        </p>
     </body>
+    
 </html>
