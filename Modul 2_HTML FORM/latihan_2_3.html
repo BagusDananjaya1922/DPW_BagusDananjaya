@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form Pendaftaran Mahasiswa</title>
+    <link rel="icon" type="image/png" href="Gambar/PSHT.png" sizes="16x16"/>
+
+    <!-- tambahan sesuai instruksi -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+
+<div id="header">
+    <h1>Form Pendaftaran Mahasiswa Baru</h1>
+</div>
+
+<div id="main">
+
+    <div id="link">
+        <ul>
+            <li><a href="#">London</a></li>
+            <li><a href="#">Paris</a></li>
+            <li><a href="#">Tokyo</a></li>
+        </ul>
+    </div>
+
+    <div id="content">
+        <p>
+            Nama saya <b>Bagus Dananjaya</b> dengan NIM <b>253307045</b>. 
+            Saya sedang membuat form pendaftaran mahasiswa baru menggunakan HTML.
+        </p>
+
+        <h3>Form Pendaftaran Mahasiswa Baru</h3>
+
+        <form action="proses.php" method="post">
+
+            Nama Lengkap : <input type="text" name="nama"><br><br>
+
+            Tempat/Tanggal Lahir :
+            <input type="text" name="tempat" placeholder="Tempat">
+            <input type="number" name="tgl" min="1" max="31" placeholder="DD">
+            <input type="number" name="bln" min="1" max="12" placeholder="MM">
+            <input type="number" name="thn" min="1989" max="1994" placeholder="YYYY">
+            <br><br>
+
+            Agama :
+            <select name="agama">
+                <option>Islam</option>
+                <option>Kristen</option>
+                <option>Katolik</option>
+                <option>Hindu</option>
+                <option>Budha</option>
+                <option>Konghucu</option>
+            </select>
+            <br><br>
+
+            Jenis Kelamin :
+            <input type="radio" name="jk" value="Laki-laki"> Laki-laki
+            <input type="radio" name="jk" value="Perempuan"> Perempuan
+            <br><br>
+
+            No. Ijazah SMA/MA : <input type="text" name="ijazah"><br><br>
+
+            Foto (maks 20 KB) : <input type="file" name="foto"><br><br>
+
+            Nama Ayah : <input type="text" name="ayah"><br><br>
+            Nama Ibu : <input type="text" name="ibu"><br><br>
+
+            Alamat Rumah : <br>
+            <textarea name="alamat" rows="4" cols="40"></textarea><br><br>
+
+            No. Telp : <input type="text" name="telp"><br><br>
+
+            Nama Sekolah Asal : <input type="text" name="sekolah"><br><br>
+
+            Alamat Sekolah Asal : <br>
+            <textarea name="alamat_sekolah" rows="4" cols="40"></textarea><br><br>
+
+            Jurusan Dipilih :
+            <select name="jurusan">
+                <option>Komputerisasi Akuntansi</option>
+                <option>Administrasi Bisnis</option>
+                <option>Teknik Komputer Kontrol</option>
+                <option>Teknik Listrik</option>
+                <option>Mesin Otomotif</option>
+                <option>Perkeretaapian</option>
+                <option>Teknologi Informasi</option>
+                <option>Akuntansi</option>
+            </select>
+            <br><br>
+
+            Tahu informasi ini dari :
+            <input type="checkbox" name="info[]" value="Koran"> Koran
+            <input type="checkbox" name="info[]" value="Website"> Website
+            <input type="checkbox" name="info[]" value="Televisi"> Televisi
+            <input type="checkbox" name="info[]" value="Radio"> Radio
+            <input type="checkbox" name="info[]" value="Teman"> Teman
+            <br><br>
+
+            <input type="submit" value="DAFTAR">
+            <input type="reset" value="BATAL">
+
+        </form>
+    </div>
+
+</div>
+
+<div id="footer">
+    <i>copyright@Bagus Dananjaya_253307045_2023</i>
+</div>
+
+</body>
+</html>

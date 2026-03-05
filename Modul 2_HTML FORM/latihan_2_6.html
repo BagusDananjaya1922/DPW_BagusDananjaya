@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Div dan Span</title>
+    <link rel="icon" type="image/png" href="Gambar/PSHT.png" sizes="16x16"/>
+</head>
+
+<body>
+
+<div id="header">
+     <h1>Contoh Image Map pada Gambar</h1>
+</div>
+
+<div id="main">
+
+    <div id="link">
+        <ul>
+            <li><a href="#">London</a></li>
+            <li><a href="#">Paris</a></li>
+            <li><a href="#">Tokyo</a></li>
+        </ul>
+    </div>
+
+    <div id="content">
+        <p>
+            Nama saya <b>Bagus Dananjaya</b> dengan NIM <b>253307045</b>. 
+            Gambar di bawah bisa menuju ke link jika di klik sesuai koordinatnya.
+        </p>
+
+        <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c" alt="Workplace" usemap="#petagambar" width="500">
+
+        <map name="petagambar">
+            <area shape="rect" coords="20,40,300,260" 
+                  alt="Computer" 
+                  href="https://en.wikipedia.org/wiki/Laptop">
+
+            <area shape="rect" coords="330,120,460,260" 
+                  alt="Telephone" 
+                  href="https://en.wikipedia.org/wiki/Smartphone">
+
+            <area shape="circle" coords="370,340,50" 
+                  alt="Coffee" 
+                  href="https://en.wikipedia.org/wiki/Coffee">
+        </map>
+    </div>
+
+</div>
+
+<div id="footer">
+    <i>copyright@Bagus Dananjaya_253307045_2023</i>
+</div>
+</body>
+</html>

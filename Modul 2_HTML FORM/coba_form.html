@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8"
+    <title>Form Sederhana</title>
+    <link rel="icon" type="image/png" href="Gambar/PSHT.png" sizes="16x16"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+    <form action="/action_page.php" method="post" target="_blank">
+    <label for="depan">Nama depam:</label><br>
+    <input type="text" id="depan" name="i_name" value="Bagus"><br>
+
+    <label for="n_belakang">Nama Belakang:</label><br>
+    <input type="text" id="n_belakang" name="i_belakang" value="Dananjaya"><br>
+
+    <input type="submit" value="Kirim">
+    <input type="reset" value="Reset">
+    </form>
+    <p>
+    Berdasarkan hasil pengujian form pada browser, tombol Reset berfungsi untuk menghapus atau mengembalikan nilai input ke nilai awal yang telah ditentukan pada atribut value.<br>
+    Tombol Kirim (Submit) berfungsi untuk mengirim data yang telah diisi ke halaman tujuan sesuai dengan atribut action.<br>
+    Penggunaan atribut target dengan nilai _self akan membuka hasil pengiriman pada tab yang sama, sedangkan _blank akan membuka hasil pengiriman pada tab baru.<br>
+    Selain itu, penggunaan method="get" akan menampilkan data input pada URL sehingga mudah dilihat namun kurang aman, sedangkan method="post" tidak menampilkan data pada URL sehingga lebih aman untuk pengiriman data.<br>
+    Dengan demikian, atribut target dan method sangat mempengaruhi cara data dikirim dan ditampilkan pada browser.
+    </p>
+</body>
+</html>
