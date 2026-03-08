@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<title>Halaman Canvas</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+
+* {
+box-sizing: border-box;
+}
+
+body {
+font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+background-color: #666;
+padding: 30px;
+text-align: center;
+font-size: 35px;
+color: white;
+}
+
+nav {
+float: left;
+width: 30%;
+background: #ccc;
+padding: 20px;
+}
+
+nav ul {
+list-style-type: none;
+padding: 0;
+}
+
+article {
+float: left;
+padding: 20px;
+width: 70%;
+background-color: #f1f1f1;
+}
+
+section::after {
+content: "";
+display: table;
+clear: both;
+}
+
+footer {
+background-color: #777;
+padding: 10px;
+text-align: center;
+color: white;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+<h2>WEB Bagus Dananjaya</h2>
+</header>
+
+<section>
+
+<nav>
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="gambar.html">Gambar</a></li>
+<li><a href="event.html">Event</a></li>
+<li><a href="audio.html">Audio</a></li>
+<li><a href="video.html">Video</a></li>
+<li><a href="svg.html">SVG</a></li>
+<li><a href="canvas.html">Canvas</a></li>
+</ul>
+</nav>
+
+<article>
+
+<h1>Contoh Canvas</h1>
+
+<canvas id="myCanvas" width="300" height="200" style="border:1px solid #000000;">
+Browser anda tidak mendukung canvas
+</canvas>
+
+<p>
+Kesimpulan:  
+Canvas merupakan elemen HTML5 yang digunakan untuk menggambar grafik secara dinamis menggunakan JavaScript. Dengan canvas kita dapat membuat berbagai bentuk seperti garis, lingkaran, maupun animasi secara langsung di dalam halaman web.
+</p>
+<i>
+    Nama : Bagus Dananjaya<br>
+    NIM : 253307045
+</i>
+
+</article>
+
+</section>
+
+<footer>
+<i>copyright@Bagus Dananjaya_253307045_2026</i>
+</footer>
+
+</body>
+
+<script>
+
+var c = document.getElementById("myCanvas");
+var ctx = c.getContext("2d");
+
+ctx.moveTo(0,0);
+ctx.lineTo(300,200);
+ctx.stroke();
+
+</script>
+
+</html>

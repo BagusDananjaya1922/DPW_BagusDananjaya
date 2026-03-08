@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<title>Halamam SVG</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+
+* {
+box-sizing: border-box;
+}
+
+body {
+font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+background-color: #666;
+padding: 30px;
+text-align: center;
+font-size: 35px;
+color: white;
+}
+
+nav {
+float: left;
+width: 30%;
+background: #ccc;
+padding: 20px;
+}
+
+nav ul {
+list-style-type: none;
+padding: 0;
+}
+
+article {
+float: left;
+padding: 20px;
+width: 70%;
+background-color: #f1f1f1;
+}
+
+section::after {
+content: "";
+display: table;
+clear: both;
+}
+
+footer {
+background-color: #777;
+padding: 10px;
+text-align: center;
+color: white;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+<h2>WEB Bagus Dananjaya</h2>
+</header>
+
+<section>
+
+<nav>
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="gambar.html">Gambar</a></li>
+<li><a href="event.html">Event</a></li>
+<li><a href="audio.html">Audio</a></li>
+<li><a href="video.html">Video</a></li>
+<li><a href="svg.html">SVG</a></li>
+<li><a href="canvas.html">Canvas</a></li>
+</ul>
+</nav>
+
+<article>
+
+<h1>Contoh Grafik SVG</h1>
+
+<svg width="100" height="100">
+<circle cx="50" cy="50" r="40"
+stroke="green"
+stroke-width="4"
+fill="yellow" />
+<polygon points="200,10 250,190 160,210"
+style="fill:red;stroke:black;stroke-width:2" />
+</svg>
+<svg width="100" height="100">
+<rect width="400" height="100" style="fill: rgb(red, green, blue);stroke-width: 10;stroke: rgb(0, 0, 0);"/>
+<polygon points="200,10 250,190 160,210"
+style="fill:red;stroke:black;stroke-width:2" />
+</svg>
+<svg width="400" height="180">
+<rect width="50" y="20" rx="20" ry="20" width="150" height="150"
+style="fill: red; stroke: black; stroke-width: 5; opacity: 0.5;"/>
+<polygon points="200,10 250,190 160,210"
+style="fill:red;stroke:black;stroke-width:2" />
+</svg>
+
+<p>
+Kesimpulan:  
+SVG merupakan grafik berbasis vektor yang dapat dibuat langsung di dalam HTML.
+Dengan SVG kita dapat membuat berbagai bentuk seperti lingkaran, garis,
+persegi, dan polygon tanpa menggunakan gambar dari file eksternal.
+</p>
+<i>
+    Nama : Bagus Dananjaya
+    NIM : 253307045
+</i>
+
+</article>
+
+</section>
+
+<footer>
+<i>copyright@Bagus Dananjaya_253307045_2026</i>
+</footer>
+
+</body>
+</html>
