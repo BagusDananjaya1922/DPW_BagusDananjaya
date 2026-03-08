@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Combinator Selector</title>
+
+<style>
+div p { 
+    color: red;
+}
+
+div > p { 
+    background-color: yellow;
+}
+
+div + p {
+    background-color: darkgray;
+}
+
+div ~ p { 
+    color: cyan;
+}
+</style>
+</head>
+<body>
+
+<div>
+<p>This is a paragraph. Kesimpulan: selector no 1 berlaku pada semua p yang berada di dalam div.</p>
+<p>This is a paragraph. Kesimpulan: selector no 2 hanya berlaku pada p yang merupakan anak langsung dari div.</p>
+</div>
+<p>This is a paragraph. Kesimpulan: selector no 3 berlaku pada paragraf pertama setelah div.</p>
+<p>This is a paragraph. Kesimpulan: selector no 4 berlaku pada semua paragraf setelah div.</p>
+</body>
+</html>
