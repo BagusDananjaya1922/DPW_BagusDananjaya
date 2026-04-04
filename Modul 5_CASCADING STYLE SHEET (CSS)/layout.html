@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>layout produk</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f4f6f9;
+        }
+
+        .container {
+            display: grid;
+            grid-template-areas:
+                "header header header"
+                "menu main right"
+                "menu footer footer";
+            grid-template-columns: 1fr 2fr 1fr;
+            gap: 15px;
+        }
+
+        .box {
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+
+        .header { grid-area: header; }
+        .menu   { grid-area: menu; text-align: left; }
+        .main   { grid-area: main; }
+        .right  { grid-area: right; }
+        .footer { grid-area: footer; }
+
+        .menu ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .menu li {
+            margin: 10px 0;
+        }
+
+        .product {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 10px;
+        }
+
+        .card {
+            background: #fafafa;
+            padding: 15px;
+            border-radius: 8px;
+        }
+
+        .card img {
+            width: 100%;
+            border-radius: 5px;
+        }
+
+        .card h4 {
+            margin: 10px 0 5px;
+        }
+
+        .price {
+            color: #0071e3;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+
+    <div class="box header">
+        <h2>G U S A D A</h2>
+    </div>
+
+    <div class="box menu">
+        <h3>Menu</h3>
+        <ul>
+            <li>iPhone</li>
+            <li>MacBook</li>
+            <li>iPad</li>
+            <li>Accessories</li>
+        </ul>
+    </div>
+
+    <div class="box main">
+        <h3>Products</h3>
+
+        <div class="product">
+            <div class="card">
+                <img src="gambar/ip15.jpeg" alt="">
+                <h4>iPhone 15</h4>
+                <div class="price">Rp 15.000.000</div>
+            </div>
+
+            <div class="card">
+                <img src="gambar/mac.jpeg" alt="">
+                <h4>MacBook Air M2</h4>
+                <div class="price">Rp 18.000.000</div>
+            </div>
+
+            <div class="card">
+                <img src="gambar/ipad.jpg" alt="">
+                <h4>iPad Pro</h4>
+                <div class="price">Rp 12.000.000</div>
+            </div>
+
+            <div class="card">
+                <img src="gambar/airpod.jpeg" alt="">
+                <h4>AirPods Pro</h4>
+                <div class="price">Rp 3.500.000</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="box right">
+        <h3>Promo</h3>
+        <p>Diskon hingga 10% untuk produk tertentu!</p>
+    </div>
+
+    <div class="box footer">
+        <p>© 2026 G U S A D A - Tugas CSS Grid</p>
+    </div>
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Grid Layout - Skenario 1 & 2</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        h2 {
+            margin-top: 40px;
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 10px;
+            padding: 20px;
+            background-color: #2196F3;
+            margin-bottom: 10px;
+        }
+
+        .item {
+            background-color: #ffffff;
+            text-align: center;
+            padding: 20px;
+            font-size: 18px;
+        }
+
+        .row-span {
+            grid-row: 1 / 4;
+        }
+
+        .col-span {
+            grid-column: 1 / 4;
+        }
+
+        p {
+            margin-bottom: 30px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>CSS Grid Layout</h1>
+
+    <h2>Skenario 1: Grid Row</h2>
+    <div class="container">
+        <div class="item row-span">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+        <div class="item">4</div>
+        <div class="item">5</div>
+        <div class="item">6</div>
+    </div>
+    <p><strong>Kesimpulan:</strong> grid-row digunakan untuk menggabungkan beberapa baris sehingga elemen menjadi lebih tinggi (vertikal).</p>
+
+    <h2>Skenario 2: Grid Column</h2>
+    <div class="container">
+        <div class="item col-span">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+        <div class="item">4</div>
+        <div class="item">5</div>
+        <div class="item">6</div>
+    </div>
+    <p><strong>Kesimpulan:</strong> grid-column digunakan untuk menggabungkan beberapa kolom sehingga elemen menjadi lebih lebar (horizontal).</p>
+
+</body>
+</html>
