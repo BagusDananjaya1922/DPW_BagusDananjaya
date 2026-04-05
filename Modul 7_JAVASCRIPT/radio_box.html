@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Pilihan Musik</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin-top: 50px;
+            text-align: center;
+        }
+
+        .box {
+            display: inline-block;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+        }
+
+        .hasil {
+            margin-top: 15px;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="box">
+    <h3>Pilih Musik Favorit</h3>
+
+    <form name="formPilihan">
+        <label><input type="radio" name="musik" value="Jazz" onchange="tampil()"> Jazz</label><br>
+        <label><input type="radio" name="musik" value="Keroncong" onchange="tampil()"> Keroncong</label><br>
+        <label><input type="radio" name="musik" value="Dangdut" onchange="tampil()"> Dangdut</label><br>
+        <label><input type="radio" name="musik" value="Lainnya" onchange="tampil()"> Lainnya</label><br>
+
+        <div class="hasil">
+            Hasil: <input type="text" name="output" size="30">
+        </div>
+    </form>
+</div>
+
+<script>
+    function tampil() {
+        let pilihan = document.formPilihan.musik;
+
+        for (let i = 0; i < pilihan.length; i++) {
+            if (pilihan[i].checked) {
+                document.formPilihan.output.value = pilihan[i].value;
+            }
+        }
+    }
+</script>
+
+</body>
+</html>

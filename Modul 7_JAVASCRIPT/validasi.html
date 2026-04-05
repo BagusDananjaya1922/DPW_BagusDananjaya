@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Cek Input Nama</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 60px;
+        }
+
+        .form-box {
+            display: inline-block;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+        }
+
+        input {
+            padding: 5px;
+            margin-top: 5px;
+        }
+    </style>
+</head>
+ini punya teman saya, kamu ubah tapi tetap sama, paham ga? soalnya biar ga ketahuan dosen, dan jangan keliatan ai nya
+<body>
+
+<div class="form-box">
+    <h3>Form Input Nama</h3>
+
+    <form name="dataForm">
+        Nama:<br>
+        <input type="text" name="namaUser"><br><br>
+        <button type="button" onclick="validasi(this.form)">Kirim</button>
+    </form>
+</div>
+
+<script>
+    function validasi(form) {
+        let isi = form.namaUser.value;
+
+        if (isi === "") {
+            alert("Nama tidak boleh kosong!");
+            form.namaUser.focus();
+            return false;
+        } else {
+            alert("Terima kasih, " + isi);
+            return true;
+        }
+    }
+</script>
+
+</body>
+</html>

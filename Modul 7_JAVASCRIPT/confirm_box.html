@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Latihan Confirm</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        .box {
+            display: inline-block;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            background: #f9f9f9;
+        }
+
+        button {
+            padding: 10px 15px;
+            cursor: pointer;
+        }
+
+        #hasil {
+            margin-top: 15px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="box">
+    <h3>Konfirmasi Logout</h3>
+    <button onclick="cekKonfirmasi()">Logout</button>
+    <div id="hasil"></div>
+</div>
+
+<script>
+    function cekKonfirmasi() {
+        let pesan = confirm("Yakin ingin keluar?");
+
+        let output = document.getElementById("hasil");
+
+        if (pesan) {
+            output.innerHTML = "Anda memilih OK";
+        } else {
+            output.innerHTML = "Anda memilih Cancel";
+        }
+    }
+</script>
+
+</body>
+</html>

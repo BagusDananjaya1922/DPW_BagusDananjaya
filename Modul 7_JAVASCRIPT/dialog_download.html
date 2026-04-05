@@ -1,0 +1,40 @@
+<div id="dialogDownload" title="Proses Unduhan">
+    <div class="status-text">Memulai proses...</div>
+    <div id="barProgress"></div>
+</div>
+
+<script>
+    $(document).ready(function () {
+
+        let bar = $("#barProgress");
+        let status = $(".status-text");
+
+        // inisialisasi progressbar
+        bar.progressbar({
+            value: false,
+            change: function () {
+                status.text("Sedang download: " + bar.progressbar("value") + "%");
+            },
+            complete: function () {
+                status.text("Download selesai!");
+            }
+        });
+
+        // fungsi untuk update progress
+        function jalanProgress() {
+            let nilai = bar.progressbar("value") || 0;
+            bar.progressbar("value", nilai + 3);
+
+            if (nilai < 100) {
+                setTimeout(jalanProgress, 70);
+            }
+        }
+
+        // tampilkan dialog
+        $("#dialogDownload").dialog();
+
+        // mulai progress setelah delay
+        setTimeout(jalanProgress, 800);
+
+    });
+</script>

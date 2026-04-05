@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Input Nama</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 60px;
+        }
+
+        #hasil {
+            margin-top: 20px;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        button {
+            padding: 8px 14px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+
+<h3>Masukkan Nama</h3>
+<button onclick="ambilNama()">Klik di sini</button>
+
+<div id="hasil"></div>
+
+<script>
+    function ambilNama() {
+        let user = prompt("Masukkan nama kamu:");
+
+        if (user != null && user !== "") {
+            document.getElementById("hasil").innerHTML = "Halo, " + user;
+        } else {
+            document.getElementById("hasil").innerHTML = "Nama belum diisi.";
+        }
+    }
+</script>
+
+</body>
+</html>

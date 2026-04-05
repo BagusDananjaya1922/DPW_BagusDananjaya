@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Latihan Dialog jQuery UI</title>
+
+    <!-- jQuery UI CSS -->
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css">
+
+    <!-- jQuery & jQuery UI -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+
+    <style>
+        body {
+            font-family: Verdana, sans-serif;
+            background-color: #eef2f3;
+            text-align: center;
+            margin-top: 40px;
+        }
+
+        .container {
+            display: inline-block;
+            padding: 20px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        button {
+            padding: 8px 14px;
+            margin-top: 10px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+    <h3>Demo Dialog Sederhana</h3>
+    <p>Dialog akan tampil otomatis saat halaman dibuka.</p>
+
+    <button id="tombolDialog">Tampilkan Dialog</button>
+</div>
+
+<!-- Dialog -->
+<div id="popupInfo" title="Pesan">
+    <p>Ini contoh dialog sederhana menggunakan jQuery UI. 
+       Bisa memindahkan atau menutupnya.</p>
+</div>
+
+<script>
+    $(document).ready(function () {
+
+        // buat dialog
+        $("#popupInfo").dialog({
+            autoOpen: true,
+            show: { effect: "fade", duration: 400 },
+            hide: { effect: "scale", duration: 400 }
+        });
+
+        // tombol buka ulang dialog
+        $("#tombolDialog").click(function () {
+            $("#popupInfo").dialog("open");
+        });
+
+    });
+</script>
+
+</body>
+</html>
