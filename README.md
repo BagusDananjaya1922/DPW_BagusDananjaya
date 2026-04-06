@@ -22,6 +22,8 @@ Repository ini berisi kumpulan tugas praktikum mata kuliah
 ## 👨‍🏫 Identitas Mahasiswa
 
 - Nama: Bagus Dananjaya  
+- NIM: 253307045
+- Kelas: 2B
 - Program Studi: Teknologi Informasi  
 - Kampus: Politeknik Negeri Madiun  
 
