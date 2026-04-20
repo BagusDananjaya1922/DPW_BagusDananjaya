@@ -45,14 +45,12 @@ Mata kuliah ini membahas konsep dasar pengembangan website, meliputi:
 
 | No | Modul | Deskripsi | Link |
 |----|------|----------|------|
-| 1 | Modul 1 | HTML Dasar | [🔗 Lihat Modul](./Modul1_HTML DASAR) |
-| 2 | Modul 2 | HTML Form | [🔗 Lihat Modul](./Modul2) |
-| 3 | Modul 3 | HTML5 Form Lanjutan | [🔗 Lihat Modul](./Modul3) |
-| 4 | Modul 4 | CSS Dasar | [🔗 Lihat Modul](./Modul4) |
-| 5 | Modul 5 | CSS Layout | [🔗 Lihat Modul](./Modul5) |
-| 6 | Modul 6 | CSS Framework | [🔗 Lihat Modul](./Modul6) |
-| 7 | Modul 7 | JavaScript Dasar | [🔗 Lihat Modul](./Modul7) |
-| 8 | Modul 8 | PHP Dasar | [🔗 Lihat Modul](./Modul8) |
+| 1 | Modul 1 | HTML Dasar | [🔗 Lihat Modul](./Modul%201_HTML%20DASAR/) |
+| 2 | Modul 2 | HTML Form | [🔗 Lihat Modul](./Modul%202_HTML%20FORM/) |
+| 3 | Modul 3 | HTML5 Form Lanjutan | [🔗 Lihat Modul](./Modul%203_HTML5%20Form%20(Lanjut)/) |
+| 4 | Modul 4 | CSS Dasar | [🔗 Lihat Modul](./Modul%204_CSS%20Dasar/) |
+| 7 | Modul 7 | JavaScript Dasar | [🔗 Lihat Modul](./Modul%207_JAVASCRIPT/) |
+| 8 | Modul 8 | PHP Dasar | [🔗 Lihat Modul](./Modul%208_PHP%20Dasar/) |
 | 9 | Modul 9 | Coming Soon | 🚧 |
 | 10 | Modul 10 | Coming Soon | 🚧 |
 
