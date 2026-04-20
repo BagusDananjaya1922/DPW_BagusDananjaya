@@ -71,10 +71,10 @@ Mata kuliah ini membahas konsep dasar pengembangan website, meliputi:
 
 ## 👨‍🎓 Author
 
--👤 **Bagus Dananjaya**  
--📌 NIM: 253307045  
--📌 Kelas: 2B
--📌 Prodi: D3 Teknologi Informasi
+- 👤 **Bagus Dananjaya**  
+- 📌 NIM: 253307045  
+- 📌 Kelas: 2B
+- 📌 Prodi: D3 Teknologi Informasi
 
 ---
 
