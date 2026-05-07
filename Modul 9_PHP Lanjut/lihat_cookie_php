@@ -1,0 +1,12 @@
+<?php
+
+if(isset($_COOKIE["nama"])){
+
+    echo "Nama : " . $_COOKIE["nama"];
+
+}else{
+
+    echo "Cookie belum ada";
+}
+
+?>
