@@ -1,82 +1,213 @@
-<h1 align="center">💻 Desain & Pemrograman Web</h1>
-<p align="center">
-  <b>Portfolio Praktikum Modul DPW</b><br>
-  <i>HTML • CSS • JavaScript • jQuery • PHP</i>
-</p>
+<div align="center">
 
-<p align="center">
-  <img src="https://img.shields.io/github/repo-size/BagusDananjaya1922/DPW_BagusDananjaya">
-  <img src="https://img.shields.io/github/last-commit/BagusDananjaya1922/DPW_BagusDananjaya">
-  <img src="https://img.shields.io/github/languages/top/BagusDananjaya1922/DPW_BagusDananjaya">
-  <img src="https://img.shields.io/github/stars/BagusDananjaya1922/DPW_BagusDananjaya?style=social">
-</p>
+# 🌐 Desain & Pemrograman Web
+### Praktikum & Project Web Development
 
----
+<img src="https://img.shields.io/github/repo-size/BagusDananjaya1922/DPW_BagusDananjaya?color=blue&style=for-the-badge">
+<img src="https://img.shields.io/github/last-commit/BagusDananjaya1922/DPW_BagusDananjaya?style=for-the-badge">
+<img src="https://img.shields.io/github/languages/top/BagusDananjaya1922/DPW_BagusDananjaya?style=for-the-badge">
+<img src="https://img.shields.io/github/stars/BagusDananjaya1922/DPW_BagusDananjaya?style=for-the-badge">
+<img src="https://img.shields.io/badge/Status-Active-success?style=for-the-badge">
 
-## 👋 Tentang Repository
+<br><br>
 
-Repository ini berisi kumpulan tugas praktikum mata kuliah  
-**Desain & Pemrograman Web (DPW)** dari Modul 1 sampai Modul 8.
+<img src="https://readme-typing-svg.herokuapp.com?font=Poppins&size=24&pause=1000&color=00BFFF&center=true&vCenter=true&width=700&lines=Portfolio+Praktikum+Desain+%26+Pemrograman+Web;HTML+%7C+CSS+%7C+JavaScript+%7C+PHP+%7C+MySQL;Politeknik+Negeri+Madiun" />
+
+</div>
 
 ---
 
-## 👨‍🏫 Identitas Mahasiswa
+# 📖 Tentang Repository
 
-- Nama: Bagus Dananjaya  
-- NIM: 253307045  
-- Kelas: 2B  
-- Program Studi: Teknologi Informasi  
-- Kampus: Politeknik Negeri Madiun  
+Repository ini merupakan kumpulan hasil praktikum, latihan, dan project mata kuliah **Desain & Pemrograman Web (DPW)** yang dikerjakan selama perkuliahan di **Politeknik Negeri Madiun**.
 
----
+Project dalam repository ini mencakup pembelajaran dasar hingga implementasi web dinamis menggunakan:
 
-## 📚 Deskripsi Mata Kuliah
+- 🌐 HTML5
+- 🎨 CSS3
+- ⚡ JavaScript
+- 📚 jQuery
+- 🐘 PHP
+- 🗄️ MySQL
 
-Mata kuliah ini membahas konsep dasar pengembangan website, meliputi:
-- HTML (struktur halaman web)
-- CSS (tampilan dan layout)
-- JavaScript (interaksi)
-- jQuery (library JavaScript)
-- PHP (pemrograman server-side dasar)
+Repository ini terus dikembangkan sebagai portfolio pembelajaran web development.
 
 ---
 
-## 📂 Daftar Modul Praktikum
+# 👨‍🎓 Profile Mahasiswa
 
-| No | Modul | Deskripsi | Link |
-|----|------|----------|------|
-| 1 | Modul 1 | HTML Dasar | [🔗 Lihat Modul](./Modul%201_HTML%20DASAR/) |
-| 2 | Modul 2 | HTML Form | [🔗 Lihat Modul](./Modul%202_HTML%20FORM/) |
-| 3 | Modul 3 | HTML5 Form Lanjutan | [🔗 Lihat Modul](./Modul%203_HTML5%20Form%20(Lanjut)/) |
-| 4 | Modul 4 | CSS Dasar | [🔗 Lihat Modul](./Modul%204_CSS%20Dasar/) |
-| 7 | Modul 7 | JavaScript Dasar | [🔗 Lihat Modul](./Modul%207_JAVASCRIPT/) |
-| 8 | Modul 8 | PHP Dasar | [🔗 Lihat Modul](./Modul%208_PHP%20Dasar/) |
-| 9 | Modul 9 | Coming Soon | 🚧 |
-| 10 | Modul 10 | Coming Soon | 🚧 |
+| Keterangan | Detail |
+|---|---|
+| 👤 Nama | **Bagus Dananjaya** |
+| 🆔 NIM | **253307045** |
+| 🎓 Program Studi | **D3 Teknologi Informasi** |
+| 🏫 Kampus | **Politeknik Negeri Madiun** |
+| 👨‍💻 Fokus | Web Development & Database |
+| 📚 Mata Kuliah | Desain & Pemrograman Web |
 
 ---
 
-## 🛠️ Teknologi yang Digunakan
+# 🚀 Skills & Tools
 
-- HTML5  
-- CSS3  
-- JavaScript  
-- jQuery  
-- PHP  
-- VS Code (Text Editor)
+<div align="center">
 
----
+<img src="https://skillicons.dev/icons?i=html,css,js,php,mysql,vscode,github,git" />
 
-## 👨‍🎓 Author
-
-- 👤 **Bagus Dananjaya**  
-- 📌 NIM: 253307045  
-- 📌 Kelas: 2B
-- 📌 Prodi: D3 Teknologi Informasi
+</div>
 
 ---
 
-## ⭐ Penutup
+# 📂 Struktur Modul Praktikum
 
-Terima kasih telah mengunjungi repository ini 🙌  
-Semoga bermanfaat untuk pembelajaran web development.
+| Modul | Materi | Status |
+|---|---|---|
+| 📘 Modul 1 | HTML Dasar | ✅ Selesai |
+| 📘 Modul 2 | HTML Form | ✅ Selesai |
+| 📘 Modul 3 | HTML5 Form Lanjutan | ✅ Selesai |
+| 📘 Modul 4 | CSS Dasar | ✅ Selesai |
+| 📘 Modul 5 | CSS Layout & Styling | ✅ Selesai |
+| 📘 Modul 6 | Responsive Web Design | ✅ Selesai |
+| 📘 Modul 7 | JavaScript Dasar | ✅ Selesai |
+| 📘 Modul 8 | PHP Dasar | ✅ Selesai |
+| 📘 Modul 9 | PHP Lanjut | ✅ Selesai |
+| 📘 Modul 10 | PHP OOP | ✅ Selesai |
+| 📘 Modul 11 | PHP Database CRUD | ✅ Selesai |
+| 📘 Modul 12 | PHP Database OOP | ✅ Selesai |
+
+---
+
+# 📁 Daftar Folder Modul
+
+```bash
+DPW_BagusDananjaya/
+│
+├── Modul 1_HTML DASAR
+├── Modul 2_HTML FORM
+├── Modul 3_HTML5 Form (Lanjut)
+├── Modul 4_CSS Dasar
+├── Modul 5_CSS Layout
+├── Modul 6_Responsive Web
+├── Modul 7_JAVASCRIPT
+├── Modul 8_PHP Dasar
+├── Modul 9_PHP Lanjut
+├── Modul 10_PHP OOP
+├── Modul 11_PHP Database CRUD
+└── Modul 12_PHP Database OOP
+```
+
+---
+
+# 🧩 Materi yang Dipelajari
+
+## 🌐 Front-End Development
+- Struktur halaman web menggunakan HTML5
+- Styling menggunakan CSS3
+- Responsive design
+- Layouting modern
+- Interaksi halaman menggunakan JavaScript
+- DOM manipulation
+- jQuery basic implementation
+
+## 🗄️ Back-End Development
+- Dasar PHP
+- Pengolahan form
+- Koneksi database MySQL
+- CRUD (Create, Read, Update, Delete)
+- Integrasi PHP dengan database
+
+---
+
+# 📌 Highlight Project
+
+✨ Beberapa implementasi yang telah dibuat:
+
+- Form input data mahasiswa
+- Validasi form JavaScript
+- Responsive layout website
+- CRUD data menggunakan PHP & MySQL
+- Sistem koneksi database
+- Tabel data dinamis
+- Edit & delete data
+- Interface web sederhana
+
+---
+
+# 📈 Progress Pembelajaran
+
+<div align="center">
+
+| Progress Modul | Status |
+|---|---|
+| 12 / 12 Modul | ████████████████████ 100% |
+
+</div>
+
+---
+
+# 🔗 Repository GitHub
+
+<div align="center">
+
+### 🌍 Kunjungi Repository
+👉 **[DPW_BagusDananjaya](https://github.com/BagusDananjaya1922/DPW_BagusDananjaya)**
+
+</div>
+
+---
+
+# 📷 Preview Repository
+
+<div align="center">
+
+> Portfolio praktikum web development berbasis HTML, CSS, JavaScript, PHP, dan MySQL.
+
+</div>
+
+---
+
+# 📝 Cara Menjalankan Project
+
+```bash
+# Clone repository
+git clone https://github.com/BagusDananjaya1922/DPW_BagusDananjaya.git
+
+# Masuk folder project
+cd DPW_BagusDananjaya
+```
+
+Kemudian buka menggunakan:
+- VS Code
+- XAMPP/Laragon (untuk PHP & MySQL)
+- Browser
+
+---
+
+# 🤝 Kontribusi
+
+Repository ini dibuat untuk kebutuhan pembelajaran dan dokumentasi praktikum perkuliahan.
+
+Jika ingin memberikan saran atau masukan:
+- ⭐ Star repository ini
+- 🍴 Fork repository
+- 🛠️ Buat improvement
+
+---
+
+# 📬 Contact
+
+<div align="center">
+
+👤 **Bagus Dananjaya**  
+🎓 D3 Teknologi Informasi — Politeknik Negeri Madiun
+
+</div>
+
+---
+
+<div align="center">
+
+## ⭐ Terima Kasih Telah Mengunjungi Repository Ini
+
+Semoga repository ini bermanfaat sebagai media belajar dan portfolio pengembangan web 🙌
+
+</div>
